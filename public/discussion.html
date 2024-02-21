@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Discussions Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-cC6Kqp2f9mP3C93bKZuNt2cOHpe6KtKBRQYIICAd1nw93DhziwXN7xk5FsYXM8ePfLOQ3syufOdT3R0cdv+r1w==" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="discussion.css">
+</head>
+<body>
+  <div class="heading">
+    <h1>C l u b C o n n e c t</h1>
+  </div>
+
+  <div class="navbar">
+    <a href="home.html">Home</a>
+    <a href="clubs.html">Clubs</a>
+    <a href="events.html">Events</a>
+    <a href="discussion.html">Discussion</a>
+  </div>
+
+  <div class="main-content">
+
+    <h1 class = "disc">Discussions Page</h1>
+
+    <h2>Post Discussion</h2>
+    <input type="text" id="eventTitleInput" placeholder="Discussion Title">
+    <textarea id="eventInput" placeholder="Start your event discussion here..."></textarea>
+    <button type="button" onclick="postEvent()">Post Discussion</button>
+
+    <h2>Discussions</h2>
+    <div id="eventContainer"></div>
+  </div>
+
+  <script src="discussion.js"></script>
+</body>
+</html>
